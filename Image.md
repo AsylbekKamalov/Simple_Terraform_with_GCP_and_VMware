@@ -202,7 +202,7 @@ value = google_compute_instance.my_server4_instance.network_interface.0.access_c
 }
 ```
 
-Зпускаем `Terraform` с директории `/Terraform` командой:
+Запускаем `Terraform` с директории `/Terraform` командой:
 ```bash
 terraform plan #Предварительный просмотр того что изменится и в каком количестве, со всеми данными
 ```
